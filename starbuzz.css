@@ -7,7 +7,7 @@ body {
 
 #header {
   background-color: #675c47;
-  margin:           10px 10px 0px 10px;
+  margin:           10px;
   height:           108px;
 }
 
@@ -17,6 +17,7 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
+  width:            50%;
 }
 
 #sidebar {
@@ -25,6 +26,7 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
+  width:            30%;
 }
 
 #footer {
@@ -32,7 +34,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           0px 10px 10px qaz10px;
+  margin:           0px 10px 10px 10px;
   font-size:        90%;
   clear:            left;
 }
@@ -74,4 +76,11 @@ a:visited {
 }
 #tableRow {
   display:          table-row;
+}
+#drinks {
+  display:          table-cell;
+  background-color: #efe5d0;
+  width:            20%;
+  padding:          15px;
+  vertical-align:   top;
 }
