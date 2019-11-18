@@ -6,6 +6,8 @@ body {
 }
 
 #header {
+  background-position-x: left;
+  background-position-y: right;
   background-color: #675c47;
   margin:           10px;
   height:           108px;
@@ -90,7 +92,7 @@ a:visited {
   left:             50%;
   z-index:          1;
 }
-#coupon {
+.coupon {
   position:         fixed;
   top:              350px;
   left:             -90px;
